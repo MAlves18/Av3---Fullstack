@@ -1,0 +1,15 @@
+{
+  "observacoes": 86,
+  "indicadores": 40,
+  "fontes": {
+    "IBGE": 66,
+    "EPE": 12,
+    "IPEA": 8
+  },
+  "territorios": {
+    "beiru-tancredo-neves": 33,
+    "pernambues": 33,
+    "bahia": 20
+  },
+  "duplicidades": 0
+}
