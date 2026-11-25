@@ -13,16 +13,16 @@ export default function Sidebar({ active, onChange, open, onClose }) {
     <aside className={`sidebar ${open ? 'sidebar-open' : ''}`}>
       <div className="brand">
         <div className="brand-mark"><Activity size={23}/></div>
-        <div><strong>OBSERVATÓRIO</strong><small>SOCIOENERGÉTICO</small></div>
+        <div><strong>OBSERVATÓRIO</strong><small>CAMPO SOCIOENERGÉTICO</small></div>
       </div>
-      <div className="side-label">PAINEL DE ANÁLISE</div>
+      <div className="side-label">EXPLORAR</div>
       <nav aria-label="Navegação principal">
         {items.map(([id, label, Icon]) => <button key={id} className={`nav-item ${active === id ? 'active' : ''}`} onClick={() => { onChange(id); onClose() }}>
           <Icon size={19}/><span>{label}</span>
         </button>)}
       </nav>
       <div className="sidebar-bottom">
-        <span className="status-dot"/> Projeto acadêmico · AV3
+        <span className="status-dot"/> PESQUISA TERRITORIAL
         <small>Salvador, Bahia</small>
       </div>
     </aside>
